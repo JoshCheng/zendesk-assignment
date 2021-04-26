@@ -2,7 +2,7 @@
   "name": "zendesk-assignment",
   "version": "1.0.0",
   "description": "Automated Valet Car Parking Backend Exercise",
-  "main": "zendesk-assignment",
+  "main": "main",
   "scripts": {
     "test": "mocha --recursive ./tests/*.js --exit"
   },

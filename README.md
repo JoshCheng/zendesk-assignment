@@ -18,7 +18,7 @@ A CLI application in Node.js which is an automated valet car parking system wher
 
 # How to run it:
 ```
-$ git clone
+$ git clone https://github.com/JoshCheng/zendesk-assignment.git
 $ cd zendesk-assignment
 $ npm install
 $ node main <fileName>
