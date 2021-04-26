@@ -25,7 +25,7 @@ $ npm install
 $ node main demo.txt
 ```
 
-Note: the fileName in 'node main <fileName>' will contain the file extension and the application will read the file from the ./inputFiles directory.
+Note: the fileName value in ```node main <fileName>``` will contain the file extension and the application will read the file from the ./inputFiles directory.
 
 # Package dependencies:
 - chalk - For colour of text for user experience
