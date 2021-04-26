@@ -1,8 +1,8 @@
 # Zendesk Backend Exercise
 A CLI application in Node.js which is an automated valet car parking system where you manage a parking space for vehicles as they enter/exit it and manage its revenue.
 
-Node Version: v12.20.1 (https://nodejs.org/en/blog/release/v12.20.1/)
-Npm Version: 6.14.10 (https://www.npmjs.com/package/npm/v/6.14.10)
+- Node Version: v12.20.1 (https://nodejs.org/en/blog/release/v12.20.1/)
+- Npm Version: 6.14.10 (https://www.npmjs.com/package/npm/v/6.14.10)
 
 # Assumptions:
 - As this is a CLI application, functions will only print results and not return any values. Also in the case of any error, functions will print human readable text instead of throwing an error for a smoother user experience.
