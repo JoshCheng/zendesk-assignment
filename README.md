@@ -15,15 +15,17 @@ A CLI application in Node.js which is an automated valet car parking system wher
 - The vehicle number upon exit should be valid. It should exist within the existing vehicle parking lot.
 - The same vehicle (with the same vehicle number) should not enter the parking space before exiting.
 - If the data line format is not valid, the vehicle will be ignored and an error message will be printed in red.
+- Only .txt files are valid.
 
 # How to run it:
 ```
 $ git clone https://github.com/JoshCheng/zendesk-assignment.git
 $ cd zendesk-assignment
 $ npm install
-$ node main <fileName>
+$ node main demo.txt
 ```
-Note: fileName will be the filename without the file extension and the application will read the file from the ./inputFiles directory.
+
+Note: the fileName in 'node main <fileName>' will contain the file extension and the application will read the file from the ./inputFiles directory.
 
 # Package dependencies:
 - chalk - For colour of text for user experience
