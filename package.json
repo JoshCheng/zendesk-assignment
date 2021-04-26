@@ -1,0 +1,15 @@
+{
+  "name": "zendesk-assignment",
+  "version": "1.0.0",
+  "description": "Automated Valet Car Parking Backend Exercise",
+  "main": "zendesk-assignment",
+  "scripts": {
+    "test": "mocha --recursive ./tests/*.js --exit"
+  },
+  "keywords": [],
+  "author": "Joshua Cheng",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}

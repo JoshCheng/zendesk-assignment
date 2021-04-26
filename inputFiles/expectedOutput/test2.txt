@@ -1,0 +1,17 @@
+Accept MotorcycleLot1
+Accept CarLot1
+Accept CarLot2
+Accept CarLot3
+Reject
+CarLot3 1
+Accept CarLot3
+MotorcycleLot1 2
+Reject
+CarLot1 1
+Error occurred at line 12 - Vehicle number SGF9283P cannot be found within parking lots.
+Accept MotorcycleLot1
+Accept MotorcycleLot2
+Accept MotorcycleLot3
+Accept MotorcycleLot4
+CarLot2 6
+Accept CarLot1

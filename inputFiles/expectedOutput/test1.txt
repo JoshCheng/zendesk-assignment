@@ -1,0 +1,5 @@
+Error occurred at line 2 - Invalid data.
+Error occurred at line 3 - Invalid data.
+Error occurred at line 4 - Invalid data.
+Accept CarLot1
+Error occurred at line 6 - Vehicle exit time is earlier or equal to enter time.
