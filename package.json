@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Automated Valet Car Parking Backend Exercise",
   "main": "main",
-  "scripts": {
-    "test": "mocha --recursive ./tests/*.js --exit"
-  },
   "keywords": [],
   "author": "Joshua Cheng",
   "license": "ISC",
