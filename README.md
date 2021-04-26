@@ -8,9 +8,8 @@ A CLI application in Node.js which is an automated valet car parking system wher
     - In the scenario where the same vehicle number enters before it exits, the parking space will reject the vehicle.
 - First line in the input file will always be 2 space delimited numbers.
 - Second line onwards will contain two types of events:
-    - Vehicle entering the space: ​Enter <motorcycle|car> <vehicle number>
-    <timestamp>​. The program should print out either ​accept or ​reject based on the availability of lots in the parking space. If the vehicle is accepted, the program also returns the name of the lot being occupied by it.
-    - Vehicle exiting the space: ​Exit <vehicle number> <timestamp>​. The program prints out the released lot and the parking fee.
+    - Vehicle entering the space: ​```Enter <motorcycle|car> <vehicle number> <timestamp>```​. The program should print out either ​accept or ​reject based on the availability of lots in the parking space. If the vehicle is accepted, the program also returns the name of the lot being occupied by it.
+    - Vehicle exiting the space: ​```Exit <vehicle number> <timestamp>​```. The program prints out the released lot and the parking fee.
 - Exit time of vehicle should not be earlier than the entry time
 - The vehicle number upon exit should be valid. It should exist within the existing vehicle parking lot.
 - The same vehicle (with the same vehicle number) should not enter the parking space before exiting.
