@@ -6,7 +6,7 @@ A CLI application in Node.js which is an automated valet car parking system wher
 - Timestamp is assumed to be the 10 digit unix timestamp value which is the number of seconds after 1 Jan 1970, to get the time (in seconds) each vehicle took between entry and exit, we can simply deduct the entry time from exit time.
 - Vehicles will not enter the parking space with the same vehicle number until that vehicle has already exited the parking space.
     - In the scenario where the same vehicle number enters before it exits, the parking space will reject the vehicle.
-- First line in the input file will always be 2 space delimited numbers.
+- First line in the input file will always be 2 space delimited numbers. e.g. 3 4
 - Second line onwards will contain two types of events:
     - Vehicle entering the space: ​```Enter <motorcycle|car> <vehicle number> <timestamp>```​. The program should print out either ​accept or ​reject based on the availability of lots in the parking space. If the vehicle is accepted, the program also returns the name of the lot being occupied by it.
     - Vehicle exiting the space: ​```Exit <vehicle number> <timestamp>​```. The program prints out the released lot and the parking fee.
