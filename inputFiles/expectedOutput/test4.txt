@@ -6,11 +6,11 @@ Error occurred at line 6 - Vehicle exit time is earlier or equal to enter time.
 Reject
 MotorcycleLot1 2
 Reject
-CarLot1 1
+CarLot1 2
 Accept MotorcycleLot1
 Accept MotorcycleLot2
 Accept MotorcycleLot3
 Accept MotorcycleLot4
-Error occurred at line 15 - Vehicle exit time is earlier or equal to enter time.
-CarLot2 6
+MotorcycleLot4 56
+CarLot2 224
 Accept CarLot1

@@ -119,14 +119,15 @@ function exitCarpark (event, cpLots, mcpLots, counter) {
   
 // Calculate parking fee
 function calculateFee (type, startTime, endTime) {
-  let time = (endTime - startTime) / 3600
+  // round up to the nearest hour
+  let time = Math.ceil((endTime - startTime) / 3600)
   let rate = 0
   if (type === 'Car') {
     rate = 2
   } else if (type === 'Motorcycle') {
     rate = 1
   }
-  let fee = Math.ceil(time * rate)
+  let fee = time * rate
   return fee
 }
 
